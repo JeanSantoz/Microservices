@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ZuulServerApplication",
+            "request": "launch",
+            "mainClass": "com.example.zuulserver.ZuulServerApplication",
+            "projectName": "zuul-server"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaserviceApplication<eurekaservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.eurekaservice.EurekaserviceApplication",
+            "projectName": "eurekaservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
